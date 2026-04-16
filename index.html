@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AKYAM Furniture Works</title>
+  <meta
+    name="description"
+    content="AKYAM Furniture Works crafts warm, elegant furniture and decor for homes that want depth, comfort, and timeless character."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Sora:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="backdrop backdrop--left"></div>
+  <div class="backdrop backdrop--right"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="AKYAM home">
+      <img class="brand-logo" src="logo.jpg" alt="AKYAM Furniture Works logo">
+      <div class="brand-copy">
+        <span class="brand-name">AKYAM</span>
+        <span class="brand-tag">Furniture Works</span>
+      </div>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      Menu
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+      <a href="#collections">Collections</a>
+      <a href="#shop">Shop</a>
+      <a href="#craft">Craft</a>
+      <a href="#journal">Lookbook</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Switch to dark mode">
+        Dark mode
+      </button>
+      <button class="cart-button" type="button" aria-controls="cart-drawer" aria-expanded="false">
+        Cart
+        <span class="cart-count" aria-live="polite">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">Warm furniture for grounded homes</p>
+        <h1>Spaces that feel rich, calm, and unmistakably yours.</h1>
+        <p class="hero-text">
+          AKYAM Furniture Works blends sculpted wood tones, bronze warmth, and
+          tactile upholstery into statement pieces that make everyday living feel
+          curated.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button--primary" href="#shop">Shop Best Sellers</a>
+          <a class="button button--secondary" href="#craft">See Our Process</a>
+        </div>
+
+        <div class="hero-details">
+          <article class="detail-card">
+            <span class="detail-value">250+</span>
+            <p>Made-to-order pieces delivered across homes, lounges, and private spaces.</p>
+          </article>
+          <article class="detail-card">
+            <span class="detail-value">4-6 weeks</span>
+            <p>Typical production lead time for custom finishes, sizing, and tailored upholstery.</p>
+          </article>
+          <article class="detail-card">
+            <span class="detail-value">Natural finishes</span>
+            <p>Oak, walnut, linen, boucle, and antique-inspired metal details.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="hero-stage">
+        <div class="stage-arch"></div>
+        <div class="stage-floor"></div>
+
+        <div class="hero-note hero-note--top">
+          <span>Signature mood</span>
+          Bronze curves, deep espresso, soft sand, and clean negative space.
+        </div>
+
+        <div class="showroom-scene" aria-hidden="true">
+          <div class="scene-rug"></div>
+          <div class="scene-lamp">
+            <span class="lamp-shade"></span>
+            <span class="lamp-stem"></span>
+            <span class="lamp-base"></span>
+          </div>
+          <div class="scene-chair">
+            <span class="chair-back"></span>
+            <span class="chair-seat"></span>
+            <span class="chair-arm chair-arm--left"></span>
+            <span class="chair-arm chair-arm--right"></span>
+            <span class="chair-leg chair-leg--left"></span>
+            <span class="chair-leg chair-leg--right"></span>
+          </div>
+          <div class="scene-table">
+            <span class="table-top"></span>
+            <span class="table-base"></span>
+          </div>
+          <div class="scene-book"></div>
+        </div>
+
+        <article class="hero-card hero-card--feature">
+          <p class="hero-card-label">April Collection</p>
+          <h2>The lounge edit your room grows around.</h2>
+          <p>
+            Rounded silhouettes and wood-rich finishes designed to feel luxurious
+            without losing warmth.
+          </p>
+        </article>
+
+        <article class="hero-card hero-card--materials">
+          <p class="hero-card-label">Material palette</p>
+          <div class="material-swatches">
+            <span class="swatch swatch--espresso"></span>
+            <span class="swatch swatch--walnut"></span>
+            <span class="swatch swatch--bronze"></span>
+            <span class="swatch swatch--sand"></span>
+          </div>
+          <p>Built directly from the tones and quiet luxury of the AKYAM logo.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="collections" id="collections">
+      <div class="section-heading">
+        <p class="eyebrow">Collections</p>
+        <h2>Curated for how rooms really live.</h2>
+        <p>
+          Each collection carries the same visual DNA: rounded forms, grounded
+          wood tones, and a relaxed premium finish.
+        </p>
+      </div>
+
+      <div class="collection-grid">
+        <article class="collection-card collection-card--living">
+          <p class="collection-kicker">Living spaces</p>
+          <h3>Lounge pieces with quiet presence.</h3>
+          <p>Cloud-soft seating, sculpted armchairs, and tables that anchor the room.</p>
+          <a href="#shop" class="text-button">Browse living room</a>
+        </article>
+
+        <article class="collection-card collection-card--dining">
+          <p class="collection-kicker">Dining</p>
+          <h3>Tables made for slow meals and long conversations.</h3>
+          <p>Rounded edges, tactile grain, and statement bases with balanced proportion.</p>
+          <a href="#shop" class="text-button">Browse dining</a>
+        </article>
+
+        <article class="collection-card collection-card--bedroom">
+          <p class="collection-kicker">Bedroom</p>
+          <h3>Soft structure for restful interiors.</h3>
+          <p>Upholstered beds, storage with depth, and finishing details that calm the space.</p>
+          <a href="#shop" class="text-button">Browse bedroom</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="products products--wood" id="shop">
+      <div class="section-heading section-heading--split">
+        <div>
+          <p class="eyebrow">Shop the collection</p>
+          <h2>Designed to sell like a storefront, not just look like one.</h2>
+        </div>
+        <p>
+          Filter by room, add items to cart, and use this as the front-end base
+          for a fuller ecommerce build whenever you are ready.
+        </p>
+      </div>
+
+      <div class="filter-bar" role="tablist" aria-label="Product categories">
+        <button class="filter-chip is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-chip" type="button" data-filter="living" aria-pressed="false">Living</button>
+        <button class="filter-chip" type="button" data-filter="dining" aria-pressed="false">Dining</button>
+        <button class="filter-chip" type="button" data-filter="bedroom" aria-pressed="false">Bedroom</button>
+        <button class="filter-chip" type="button" data-filter="storage" aria-pressed="false">Storage</button>
+        <button class="filter-chip" type="button" data-filter="decor" aria-pressed="false">Decor</button>
+      </div>
+
+      <div class="product-grid" id="product-grid"></div>
+    </section>
+
+    <section class="craft" id="craft">
+      <div class="craft-copy">
+        <p class="eyebrow">The AKYAM way</p>
+        <h2>Furniture that feels refined without feeling cold.</h2>
+        <p>
+          The logo already gave the brand a strong personality, so the site leans
+          into that same language: warm neutrals, handcrafted curves, and a sense
+          of calm confidence.
+        </p>
+
+        <div class="craft-points">
+          <article>
+            <h3>Tailored finishes</h3>
+            <p>Offer walnut, oak, smoked stain, and sand-toned upholstery options with ease.</p>
+          </article>
+          <article>
+            <h3>Hospitality-ready styling</h3>
+            <p>Works equally well for homes, studio lounges, reception rooms, and private apartments.</p>
+          </article>
+          <article>
+            <h3>Room-first curation</h3>
+            <p>Collections are grouped by how customers shop: living, dining, bedroom, and accents.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="craft-panel">
+        <div class="craft-logo-shell">
+          <img src="logo.jpg" alt="AKYAM Furniture Works emblem">
+        </div>
+        <div class="craft-surface">
+          <p class="surface-kicker">Brand direction</p>
+          <h3>Quiet luxury, warm craft, modern comfort.</h3>
+          <p>
+            The site avoids generic black-and-white minimalism and instead builds
+            around the actual spirit of the logo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="journal" id="journal">
+      <div class="section-heading">
+        <p class="eyebrow">Lookbook</p>
+        <h2>Editorial moments for a more premium feel.</h2>
+        <p>
+          These blocks help the brand feel aspirational and lived-in, which is
+          especially useful for furniture and decor storytelling.
+        </p>
+      </div>
+
+      <div class="journal-grid">
+        <article class="journal-card">
+          <p class="journal-tag">Studio lounge</p>
+          <h3>Rounded seating, brushed bronze, layered neutrals.</h3>
+          <p>For spaces that need comfort and authority at the same time.</p>
+        </article>
+        <article class="journal-card journal-card--dark">
+          <p class="journal-tag">Dining mood</p>
+          <h3>Deep wood grain paired with soft natural light.</h3>
+          <p>Designed for intimate hosting, slow meals, and statement gathering spaces.</p>
+        </article>
+        <article class="journal-card journal-card--light">
+          <p class="journal-tag">Bedroom calm</p>
+          <h3>Sand textiles, carved timber, and low, restful silhouettes.</h3>
+          <p>Warmth without visual noise, luxury without stiffness.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <article class="testimonial-card">
+        <p class="eyebrow">Client note</p>
+        <blockquote>
+          “The furniture feels like it belongs in the room instantly. Warm, polished,
+          and much more expensive-looking than anything mass-produced.”
+        </blockquote>
+        <p class="testimonial-author">Interior styling client</p>
+      </article>
+
+      <article class="testimonial-card">
+        <p class="eyebrow">Client note</p>
+        <blockquote>
+          “AKYAM has a very clear identity. The site now reflects that same identity
+          from the first scroll.”
+        </blockquote>
+        <p class="testimonial-author">Showroom partner</p>
+      </article>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div class="newsletter-copy">
+        <p class="eyebrow">Stay in the room</p>
+        <h2>Get launch drops, custom order openings, and styling notes.</h2>
+        <p>
+          Use this capture section for marketing, preorders, or private client outreach.
+        </p>
+      </div>
+
+      <form class="newsletter-form" id="newsletter-form">
+        <label class="sr-only" for="email">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Email address" required>
+        <button class="button button--primary" type="submit">Join the list</button>
+      </form>
+      <p class="form-message" id="form-message" aria-live="polite"></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 AKYAM. All rights reserved.</p>
+  </footer>
+
+  <div class="overlay" id="overlay" hidden></div>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+    <div class="cart-drawer-header">
+      <div>
+        <p class="eyebrow">Your selection</p>
+        <h2>Shopping cart</h2>
+      </div>
+      <button class="cart-close" type="button" aria-label="Close cart">Close</button>
+    </div>
+
+    <div class="cart-body">
+      <ul class="cart-items" id="cart-items"></ul>
+
+      <div class="cart-empty" id="cart-empty">
+        <p>Your cart is empty for now.</p>
+        <p>Add a few AKYAM pieces and they’ll appear here instantly.</p>
+      </div>
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-total-row">
+        <span>Total</span>
+        <strong id="cart-total">$0</strong>
+      </div>
+      <button class="button button--primary button--full" id="checkout-button" type="button">
+        Request checkout
+      </button>
+      <p class="cart-footer-note">Use this as a front-end cart flow placeholder for now.</p>
+    </div>
+  </aside>
+</body>
+</html>
